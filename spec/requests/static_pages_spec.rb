@@ -1,4 +1,5 @@
 require 'spec_helper'
+include ApplicationHelper
 
 describe "Static pages" do
  
@@ -16,6 +17,7 @@ describe "Static pages" do
     click_link "sample app"
     page.should # fill in
   end
+  
   subject { page }
   
   shared_examples_for "all static pages" do
