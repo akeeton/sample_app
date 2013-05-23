@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'faker', '1.0.1'
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -35,7 +38,7 @@ group :test do
   gem 'win32console', '1.3.0'
   gem 'wdm'
   gem 'factory_girl_rails', '4.1.0'
-end 
+end
 
 group :production do
   gem 'pg', '0.12.2'
